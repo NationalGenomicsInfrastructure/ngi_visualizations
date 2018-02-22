@@ -1,6 +1,9 @@
 # Alignment Reports
 
-[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml), 
+> **Please Note:** These scripts have been superseded by
+> MultiQC (http://multiqc.info) - we recommend using that instead!
+
+[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml),
 [Bowtie 2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) and
 [Tophat](http://ccb.jhu.edu/software/tophat/index.shtml) are
 commonly used next-gen sequencing read aligners.
@@ -49,9 +52,9 @@ any additional Perl modules. The generated reports use
 (embedded) to render the plots.
 
 ## Credits
-These scripts were written for use at the 
+These scripts were written for use at the
 [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/)
-at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are 
+at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are
 part of a larger repository of
 [NGI Visualization Scripts](https://github.com/SciLifeLab/ngi_visualizations).
 

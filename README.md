@@ -4,6 +4,17 @@ A collection of next-gen sequencing visualisation scripts. Click a script's
 name to go to it's subdirectory which will contain a detailed `README.md`
 file with examples and instructions.
 
+---
+
+> #### Depreciation notice
+> Please Note that many of these scripts have been superseded by
+> MultiQC (http://multiqc.info). if you're not familiar with it we
+> recommend having a look there first before using the tools below.
+
+---
+
+### Introduction
+
 Most of these scripts are written in Python. Those within the `stand_alone`
 are generally run on the command line. The rest can either be run on the command
 line or imported as part of the `ngi_visualizations` package. See

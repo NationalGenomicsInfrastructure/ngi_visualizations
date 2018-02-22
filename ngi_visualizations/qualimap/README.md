@@ -1,5 +1,8 @@
 # Qualimap Plots
 
+> **Please Note:** These scripts have been superseded by
+> MultiQC (http://multiqc.info) - we recommend using that instead!
+
 [Qualimap](http://qualimap.bioinfo.cipf.es/) is a tool to
 _"facilitate the quality control of alignment sequencing data"_.
 
@@ -61,18 +64,18 @@ by [Qualimap](http://qualimap.bioinfo.cipf.es/) and can typically be found in
 Parameters are very similar, so shown in one table. Run the script with
 `-h` to see more details, including default values.
 
-Command Line Flag | Description
------------------ | -------------------- | -----------
-`<input>` | Required.<br>Qualimap output. See above.
-`-o`, `--output` | Default: _varies_<br>Plot output filename base. 
-`-x`, `--min_x` | Default:  _varies_<br>Minimum x limit. `None` to use data limit.
-`-m`, `--max_x` | Default:  _varies_<br>Maximum x limit. `None` to use data limit or `Auto` to try to set intelligently (based on median / 50th percentile).
-`-b`, `--bin_size` | Default: `10`<br>Bin size for histogram.  Insert Size Histogram only.
-`-r`, `--ref_label` | Default: `Reference Genome (hg19)`<br>Legend for the reference data if present. GC distribution plot only.
-`-p`, `--picard` | Default: `None`<br>Input file with results from `Picard CollectGcBiasMetrics` for optional coverage line. GC distribution plot only.
-`-l`, `--log` | Default: `info`<br>Level of log messages to display. Can be `debug`, `info` or `warning`.
-`-u`, `--log-output` | Default: `stdout`<br>Log output filename.
-`-h`, `--help` | Display the help.
+| Command Line Flag    | Description |
+| -------------------- | -------------------- |
+| `<input>`            | Required.<br>Qualimap output. See above. |
+| `-o`, `--output`     | Default: _varies_<br>Plot output filename base. |
+| `-x`, `--min_x`      | Default:  _varies_<br>Minimum x limit. `None` to use data limit. |
+| `-m`, `--max_x`      | Default:  _varies_<br>Maximum x limit. `None` to use data limit or `Auto` to try to set intelligently (based on median / 50th | percentile).
+| `-b`, `--bin_size`   | Default: `10`<br>Bin size for histogram.  Insert Size Histogram only. |
+| `-r`, `--ref_label`  | Default: `Reference Genome (hg19)`<br>Legend for the reference data if present. GC distribution plot only. |
+| `-p`, `--picard`     | Default: `None`<br>Input file with results from `Picard CollectGcBiasMetrics` for optional coverage line. GC distribution plot only. |
+| `-l`, `--log`        | Default: `info`<br>Level of log messages to display. Can be `debug`, `info` or `warning`. |
+| `-u`, `--log-output` | Default: `stdout`<br>Log output filename. |
+| `-h`, `--help`       | Display the help. |
 
 ## Dependencies
 
@@ -87,9 +90,9 @@ The following Python libraries are required:
 * os
 
 ## Credits
-These scripts were written for use at the 
+These scripts were written for use at the
 [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/)
-at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are 
+at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are
 part of a larger repository of
 [NGI Visualization Scripts](https://github.com/SciLifeLab/ngi_visualizations).
 

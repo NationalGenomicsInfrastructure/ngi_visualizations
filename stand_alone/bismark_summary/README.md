@@ -1,5 +1,10 @@
 # Bismark Summary Reports
 
+> **Please Note:** This script has now been incorporate into Bismark,
+> see the [bismark documentation](https://rawgit.com/FelixKrueger/Bismark/master/Docs/Bismark_User_Guide.html#v-the-bismark-summary-report) for reference.
+> Also note that MultiQC (http://multiqc.info) performs much the same task
+> as well as supporting other tools.
+
 [Bismark](http://www.bioinformatics.babraham.ac.uk/projects/bismark/) is a tool
 used for aligning Bisfulfite-Sequencing libraries, giving information about
 DNA methylation.

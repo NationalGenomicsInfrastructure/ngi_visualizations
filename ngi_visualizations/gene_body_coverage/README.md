@@ -1,6 +1,9 @@
 # Gene Body Coverage
 
-A simple script to take the output from the 
+> **Please Note:** This script has been superseded by
+> MultiQC (http://multiqc.info) - we recommend using that instead!
+
+A simple script to take the output from the
 [RSeQC](http://rseqc.sourceforge.net/#genebody-coverage-py)
 `geneBody_coverage.py` script and plot this on single graph (png and pdf).
 
@@ -37,9 +40,9 @@ The following Python libraries are required:
 * os
 
 ## Credits
-These scripts were written for use at the 
+These scripts were written for use at the
 [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/)
-at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are 
+at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are
 part of a larger repository of
 [NGI Visualization Scripts](https://github.com/SciLifeLab/ngi_visualizations).
 
@@ -47,6 +50,3 @@ For more information, please get in touch with
 [Phil Ewels](https://github.com/ewels).
 
 <p align="center"><a href="http://www.scilifelab.se/" target="_blank"><img src="../../examples/SciLifeLab_logo.png" title="SciLifeLab"></a></p>
-
-
-

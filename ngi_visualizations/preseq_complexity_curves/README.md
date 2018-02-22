@@ -1,5 +1,8 @@
-
 # preseq Complexity Curves
+
+> **Please Note:** This script has been superseded by
+> MultiQC (http://multiqc.info) - we recommend using that instead!
+
 [Preseq](http://smithlabresearch.org/software/preseq/) is a piece of software
 designed to estimate how library complexity varies with increasing sequencing
 depth. It helps to decide whether further sequencing would yield further

@@ -1,4 +1,8 @@
 # snpEff Plots
+
+> **Please Note:** This script has been superseded by
+> MultiQC (http://multiqc.info) - we recommend using that instead!
+
 [snpEff](http://snpeff.sourceforge.net/) is a tool which annotates genetic
 variants in sequencing data and predicts their effect. The numbers
 it produces are really nice, but at the time of writing the report
@@ -44,9 +48,9 @@ The following Python libraries are required:
 * os
 
 ## Credits
-These scripts were written for use at the 
+These scripts were written for use at the
 [National Genomics Infrastructure](https://portal.scilifelab.se/genomics/)
-at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are 
+at [SciLifeLab](http://www.scilifelab.se/) in Stockholm, Sweden. They are
 part of a larger repository of
 [NGI Visualization Scripts](https://github.com/SciLifeLab/ngi_visualizations).
 
